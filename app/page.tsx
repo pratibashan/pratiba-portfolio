@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Header from "./components/Header";
 
 const professionalSkills = {
@@ -54,7 +55,7 @@ const experience = [
   {
     company: "MEDIFAST, INC.",
     title: "Software Engineer IV",
-    dates: "Apr 2022 – Present",
+    dates: "Apr 2022 – Jul 2026",
     bullets: [
       "Delivered React Native features and enhancements supporting iOS and Android applications.",
       "Developed functionality integrating with APIs, Exigo services, and database-backed workflows.",
@@ -242,6 +243,51 @@ export default function Home() {
               </a>
             </div>
 
+            {/* Project Screenshots */}
+            <div className="mt-10 grid items-start gap-5 lg:grid-cols-[minmax(0,2.1fr)_minmax(260px,0.9fr)]">
+              {/* Web Dashboard */}
+              <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900">
+                <div className="border-b border-slate-800 px-5 py-4">
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-violet-400">
+                    Web Dashboard
+                  </p>
+                </div>
+
+                <div className="relative aspect-video overflow-hidden bg-slate-950">
+                  <Image
+                    src="/projects/web-dashboard.png"
+                    alt="Engineering Delivery Hub web dashboard showing project health and delivery status"
+                    fill
+                    priority
+                    className="object-cover object-top"
+                    sizes="(max-width: 1024px) 100vw, 70vw"
+                  />
+                </div>
+              </div>
+
+              {/* AI Insight */}
+              <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900">
+                <div className="border-b border-slate-800 px-5 py-4">
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-violet-400">
+                    AI Delivery Insight
+                  </p>
+                </div>
+
+                <div className="flex justify-center bg-slate-950 p-4">
+                  <div className="relative h-125 w-full max-w-82.5 overflow-hidden rounded-xl">
+                    <Image
+                      src="/projects/mobile-ai-insight.png"
+                      alt="Engineering Delivery Hub AI-powered project delivery insight"
+                      fill
+                      className="object-cover object-top"
+                      sizes="(max-width: 1024px) 330px, 25vw"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Project Architecture */}
             <div className="mt-8 overflow-hidden rounded-3xl border border-slate-700 bg-slate-900">
               <div className="grid md:grid-cols-2">
                 <article className="border-b border-slate-800 p-6 sm:p-8 md:border-b-0 md:border-r">
@@ -338,7 +384,7 @@ export default function Home() {
                         className="flex gap-3 text-base leading-7 text-slate-300 sm:text-lg sm:leading-8"
                       >
                         <span
-                          className="mt-[13px] h-1.5 w-1.5 shrink-0 rounded-full bg-violet-400"
+                          className="mt-3.25 h-1.5 w-1.5 shrink-0 rounded-full bg-violet-400"
                           aria-hidden="true"
                         />
 
