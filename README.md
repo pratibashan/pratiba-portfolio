@@ -72,8 +72,34 @@ This portfolio is built with:
 
 ## Running Locally
 
-Clone the repository and install dependencies:
+Install dependencies:
 
 ```bash
 npm install
 ```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+## Validation
+
+The portfolio can be validated with:
+
+```bash
+npm run lint
+npx tsc --noEmit
+npm run build
+```
+
+## Copyright
+
+© 2026 Pratiba Shan. All rights reserved.
