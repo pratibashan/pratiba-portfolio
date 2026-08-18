@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pratiba Shan — Software Engineering Portfolio
 
-## Getting Started
+Personal software engineering portfolio showcasing my professional experience, technical skills, and hands-on projects across mobile, web, full-stack development, cloud technologies, and AI.
 
-First, run the development server:
+## Live Portfolio
+
+https://pratiba-portfolio.vercel.app
+
+## About
+
+I am a Software Engineer with 10+ years of experience developing web and mobile applications across healthcare, e-commerce, and enterprise domains.
+
+My experience includes React Native, React, Redux, JavaScript, TypeScript, iOS and Android application development, backend integrations, accessibility, production support, application modernization, and cloud services.
+
+This portfolio highlights my professional background as well as hands-on projects demonstrating modern full-stack, mobile, AWS, authentication, and AI development.
+
+## Featured Project
+
+### Engineering Delivery Hub
+
+Engineering Delivery Hub is a full-stack web and mobile application for tracking engineering initiatives, monitoring delivery health, identifying blockers, and generating AI-powered project insights.
+
+The project demonstrates a shared AWS backend supporting both Next.js web and React Native / Expo mobile clients.
+
+### Key Capabilities
+
+- Project creation, viewing, editing, and deletion
+- Project status and progress tracking
+- Blocker and delivery-health visibility
+- Secure authentication with Amazon Cognito
+- OAuth 2.0 Authorization Code Flow with PKCE for mobile
+- Protected APIs with API Gateway JWT authorization
+- DynamoDB project persistence
+- AI-powered delivery insights using Amazon Bedrock and Claude
+- Secure mobile token storage with Expo SecureStore
+- Access-token refresh and authenticated request retry
+- AWS infrastructure managed using SAM and CloudFormation
+
+### Technology Stack
+
+- Next.js
+- React
+- React Native
+- Expo
+- TypeScript
+- Node.js
+- Amazon Cognito
+- OAuth 2.0
+- PKCE
+- API Gateway
+- AWS Lambda
+- DynamoDB
+- Amazon Bedrock
+- Claude
+- AWS IAM
+- AWS SAM
+- AWS CloudFormation
+
+[View Engineering Delivery Hub on GitHub](https://github.com/pratibashan/engineering-delivery-hub)
+
+## Portfolio Technology Stack
+
+This portfolio is built with:
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Next.js Image Optimization
+- Responsive Web Design
+- Vercel
+
+## Running Locally
+
+Clone the repository and install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
